@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+}
+#title{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#todocon{
+    width: 200px;
+    height: 30px;
+}
+#add-btn{
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+.whole {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin: 10px auto;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.whole p {
+    margin: 0;
+}
+
+.bns {
+    display: flex;
+    gap: 8px;
+}
+
+.del-btn {
+    background-color: #ff5555;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upd-btn {
+    background-color: #f0c840;
+    color: black;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
